@@ -1,42 +1,54 @@
 const Header: React.FC = () => {
-
     return (
         <header className="header text-light py-3">
-            <div className="container d-flex flex-wrap justify-content-between align-items-center">
-                {/* Logo e Nome da Clínica */}
-                <div className="d-flex align-items-center">
-                    <img
-                        src="logo.png"
-                        alt="Logo Dra. Laura Mazzola"
-                        className="me-3"
-                        style={{ width: '60px', height: '60px' }}
-                    />
-                    <div>
-                        <h1 className="h4 mb-6 ">Clínica Dra. Laura Mazzola</h1>
-                        <p className="b-6">Clínico Geral | Lentes de Contato | Implante | Cirurgias Gengivais</p>
+            <div className="container">
+                {/* Navbar */}
+                <nav className="navbar navbar-expand-md navbar-dark">
+                    {/* Logo */}
+                    <a className="navbar-brand d-flex align-items-center" href="#home">
+                        <img
+                            src="logo.png"
+                            alt="Logo Dra. Laura Mazzola"
+                            className="me-2"
+                            style={{ width: '40px', height: '40px' }}
+                        />
+                        <span>Clínica Dra. Laura Mazzola</span>
+                    </a>
+
+                    {/*  Hamburguer Btn */}
+                    <button
+                        className="navbar-toggler"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#navbarNav"
+                        aria-controls="navbarNav"
+                        aria-expanded="false"
+                        aria-label="Toggle navigation"
+                    >
+                        <span className="navbar-toggler-icon"></span>
+                    </button>
+
+                    {/* Nav Links */}
+                    <div className="collapse navbar-collapse" id="navbarNav">
+                        <ul className="navbar-nav ms-auto">
+                            <li className="nav-item">
+                                <a className="nav-link" href="#home">Página Inicial</a>
+                            </li>
+                            <li className="nav-item">
+                                <a className="nav-link" href="#treatments">Tratamentos</a>
+                            </li>
+                            <li className="nav-item">
+                                <a className="nav-link" href="#clinic">A Clínica</a>
+                            </li>
+                            <li className="nav-item">
+                                <a className="nav-link" href="#tips">Informativo/Dicas</a>
+                            </li>
+                            <li className="nav-item">
+                                <a className="nav-link" href="#contact">Contato</a>
+                            </li>
+                        </ul>
                     </div>
-                </div>
-
-                {/* Links de Navegação */}
-                <nav className="d-flex align-items-center">
-                    <a href="#home" className="text-light text-decoration-none mx-3">
-                        Página Inicial
-                    </a>
-                    <a href="#treatments" className="text-light text-decoration-none mx-3">
-                        Tratamentos
-                    </a>
-                    <a href="#clinic" className="text-light text-decoration-none mx-3">
-                        A Clínica
-                    </a>
-                    <a href="#tips" className="text-light text-decoration-none mx-3">
-                        Informativo/Dicas
-                    </a>
-                    <a href="#contact" className="text-light text-decoration-none mx-3">
-                        Contato
-                    </a>
                 </nav>
-
-
             </div>
         </header>
     );

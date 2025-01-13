@@ -3,6 +3,7 @@ html, body {
     margin: 0;
 }
 
+
 #root {
     display: flex;
     flex-direction: column;
@@ -17,6 +18,16 @@ main {
     background-color: #5A694A;
     color: white;
     padding: 1rem 0;
+}
+
+.header a {
+    text-decoration: none !important;
+    color: inherit !important;
+}
+
+.header a:hover {
+    text-decoration: none !important;
+    color: inherit !important;
 }
 
 
@@ -39,6 +50,11 @@ main {
     background-color: #5A694A !important;
     color: white !important;
     border-color: #5A694A !important;
+}
+
+.card-img-top {
+    object-fit: cover;
+    max-height: 200px;
 }
 
 

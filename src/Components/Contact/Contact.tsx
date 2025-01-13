@@ -6,7 +6,7 @@ const Contact: React.FC = () => {
                 <p className="mb-4">
                     Entre em contato conosco para agendar uma consulta ou tirar suas dúvidas!
                 </p>
-                <div className="d-flex justify-content-center">
+                <div className="d-flex justify-content-center flex-wrap gap-2">
                     <a
                         href="https://wa.me/5511970504715"
                         target="_blank"
