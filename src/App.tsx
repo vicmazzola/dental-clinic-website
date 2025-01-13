@@ -5,6 +5,7 @@ import './app.css';
 import Contact from "./Components/Contact/Contact.tsx";
 import Treatments from "./Components/Treatments/Treatments.tsx";
 import Clinic from "./Components/Clinic/Clinic.tsx";
+import Tips from "./Components/Tips/Tips.tsx";
 
 
 const App: React.FC = () => {
@@ -15,6 +16,7 @@ const App: React.FC = () => {
                 <Hero/>
                 <Treatments/>
                 <Clinic/>
+                <Tips/>
                 <Contact/>
             </main>
             <Footer/>
