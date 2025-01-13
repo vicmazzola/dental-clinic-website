@@ -1,7 +1,7 @@
 import Header from "./Components/Header/Header.tsx";
 import Hero from "./Components/Hero/Hero.tsx";
 import Footer from "./Components/Footer/Footer.tsx";
-import './app.css';
+import './App.css';
 import Contact from "./Components/Contact/Contact.tsx";
 import Treatments from "./Components/Treatments/Treatments.tsx";
 import Clinic from "./Components/Clinic/Clinic.tsx";
