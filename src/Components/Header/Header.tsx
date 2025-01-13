@@ -1,6 +1,7 @@
 const Header: React.FC = () => {
+
     return (
-        <header className="bg-success text-light py-3">
+        <header className="header text-light py-3">
             <div className="container d-flex flex-wrap justify-content-between align-items-center">
                 {/* Logo e Nome da Clínica */}
                 <div className="d-flex align-items-center">

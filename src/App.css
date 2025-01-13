@@ -12,3 +12,38 @@ html, body {
 main {
     flex: 1;
 }
+
+.header {
+    background-color: #5A694A;
+    color: white;
+    padding: 1rem 0;
+}
+
+
+.btn-success {
+    background-color: #5A694A !important;
+    border-color: #5A694A !important;
+}
+
+.btn-success:hover {
+    background-color: #4A593A !important;
+    border-color: #4A593A !important;
+}
+
+.btn-outline-success {
+    color: #5A694A !important;
+    border-color: #5A694A !important;
+}
+
+.btn-outline-success:hover {
+    background-color: #5A694A !important;
+    color: white !important;
+    border-color: #5A694A !important;
+}
+
+
+.footer {
+    background-color: #5A694A;
+    color: white;
+    padding: 1rem 0;
+}

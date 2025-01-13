@@ -16,7 +16,7 @@ const Hero: React.FC = () => {
                 <div className="mt-4">
                     <a
                         href="#treatments"
-                        className="btn btn-success btn-lg me-3"
+                        className="btn btn-success btn-lg  me-3"
                     >
                         Conheça nossos Tratamentos
                     </a>

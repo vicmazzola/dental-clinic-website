@@ -1,6 +1,6 @@
 const Footer: React.FC = () => {
     return (
-        <footer className="bg-success text-light py-4">
+        <footer className="footer text-light py-4">
             <div className="container">
                 <div className="row">
                     {/* Contato */}
