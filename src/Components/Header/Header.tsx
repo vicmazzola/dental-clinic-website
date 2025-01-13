@@ -5,14 +5,14 @@ const Header: React.FC = () => {
                 {/* Logo e Nome da Clínica */}
                 <div className="d-flex align-items-center">
                     <img
-                        src="logo.png" // Substitua pelo caminho do logo
+                        src="logo.png"
                         alt="Logo Dra. Laura Mazzola"
                         className="me-3"
                         style={{ width: '60px', height: '60px' }}
                     />
                     <div>
-                        <h1 className="h4 m-0">Clínica Dra. Laura Mazzola</h1>
-                        <p className="m-0">Clínico Geral | Lentes de Contato | Implante | Cirurgias Gengivais</p>
+                        <h1 className="h4 mb-6 ">Clínica Dra. Laura Mazzola</h1>
+                        <p className="b-6">Clínico Geral | Lentes de Contato | Implante | Cirurgias Gengivais</p>
                     </div>
                 </div>
 

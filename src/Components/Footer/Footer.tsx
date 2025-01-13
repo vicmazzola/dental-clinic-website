@@ -9,7 +9,7 @@ const Footer: React.FC = () => {
                         <p>
                             Telefone: (11) 97050-4715<br />
                             E-mail: contato@exemplo.com<br />
-                            Endereço: Rua Exemplo, 123 - São Paulo, SP
+                            Endereço: Av. 9 de Julho, 3575 - Sala 416 - Anhangabaú, Jundiaí - SP, 13208-056
                         </p>
                     </div>
 
