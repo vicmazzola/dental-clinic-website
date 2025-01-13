@@ -7,7 +7,7 @@ const Header: React.FC = () => {
                     {/* Logo */}
                     <a className="navbar-brand d-flex align-items-center" href="#home">
                         <img
-                            src="logo.png"
+                            src="/favicon.png"
                             alt="Logo Dra. Laura Mazzola"
                             className="me-2"
                             style={{ width: '40px', height: '40px' }}
