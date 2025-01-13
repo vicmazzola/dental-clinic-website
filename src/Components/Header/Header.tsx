@@ -25,28 +25,18 @@ const Header: React.FC = () => {
                     <a href="#treatments" className="text-light text-decoration-none mx-3">
                         Tratamentos
                     </a>
+                    <a href="#clinic" className="text-light text-decoration-none mx-3">
+                        A Clínica
+                    </a>
+                    <a href="#tips" className="text-light text-decoration-none mx-3">
+                        Informativo/Dicas
+                    </a>
                     <a href="#contact" className="text-light text-decoration-none mx-3">
                         Contato
                     </a>
                 </nav>
 
-                {/* Botões de Contato */}
-                <div className="d-flex align-items-center">
-                    <a
-                        href="https://wa.me/5511970504715"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        className="btn btn-light me-2"
-                    >
-                        WhatsApp
-                    </a>
-                    <a
-                        href="#"
-                        className="btn btn-outline-light"
-                    >
-                        Agendar Consulta
-                    </a>
-                </div>
+
             </div>
         </header>
     );

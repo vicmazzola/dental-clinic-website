@@ -3,7 +3,7 @@ const Hero: React.FC = () => {
         <section
             className="bg-light text-dark py-5"
             style={{
-                backgroundImage: 'url("hero-background.jpg")', // Substitua pelo caminho da imagem de fundo
+                backgroundImage: 'url("hero-background.jpg")',
                 backgroundSize: 'cover',
                 backgroundPosition: 'center',
             }}
@@ -27,6 +27,7 @@ const Hero: React.FC = () => {
                         Agende sua Consulta
                     </a>
                 </div>
+
             </div>
         </section>
     );
