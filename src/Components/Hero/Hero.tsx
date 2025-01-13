@@ -9,14 +9,25 @@ const Hero: React.FC = () => {
             }}
         >
             <div className="container text-center">
+                {/* Avatar */}
+                <img
+                    src="avatar.png"
+                    alt="Avatar da Dra. Laura Mazzola"
+                    className="rounded-circle mb-4"
+                    style={{ width: '250px', height: '250px', objectFit: 'cover' }}
+                />
+
+                {/* Title */}
                 <h1 className="display-5 fw-bold">Transformamos Sorrisos</h1>
                 <p className="lead mt-3">
                     Atendimento odontológico de qualidade, com foco no seu bem-estar.
                 </p>
-                <div className="mt-4">
+
+                {/* Buttons */}
+                <div className="mt-4 d-flex justify-content-center flex-wrap gap-2">
                     <a
                         href="#treatments"
-                        className="btn btn-success btn-lg mb-4 me-3"
+                        className="btn btn-success btn-lg me-3"
                     >
                         Conheça nossos Tratamentos
                     </a>
@@ -27,7 +38,6 @@ const Hero: React.FC = () => {
                         Agende sua Consulta
                     </a>
                 </div>
-
             </div>
         </section>
     );

@@ -1,3 +1,8 @@
+import { FaInstagram } from "react-icons/fa";
+import { FaFacebookSquare } from "react-icons/fa";
+
+
+
 const Footer: React.FC = () => {
     return (
         <footer className="footer text-light py-4">
@@ -15,17 +20,18 @@ const Footer: React.FC = () => {
 
                     {/* Redes Sociais */}
                     <div className="col-md-6 text-md-end">
-                        <h5>Siga-nos</h5>
+                        <h5>Redes Sociais</h5>
                         <a
                             href="https://www.instagram.com/la_mazzola/"
                             target="_blank"
                             rel="noopener noreferrer"
                             className="text-light me-3"
                         >
-                            Instagram
+                            <FaInstagram size={32} />
                         </a>
                         <a href="#" className="text-light">
-                            Facebook
+                            <FaFacebookSquare size={32} />
+
                         </a>
                     </div>
                 </div>
