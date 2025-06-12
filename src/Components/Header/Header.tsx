@@ -1,21 +1,21 @@
+import React from 'react';
+
 const Header: React.FC = () => {
     return (
         <header className="header text-light py-3">
             <div className="container">
-                {/* Navbar */}
                 <nav className="navbar navbar-expand-md navbar-dark">
                     {/* Logo */}
-                    <a className="navbar-brand d-flex align-items-center" href="#home">
-                        <img
-                            src="/favicon.png"
-                            alt="Logo Dra. Laura Mazzola"
-                            className="me-2"
-                            style={{ width: '40px', height: '40px' }}
-                        />
-                        <span>Clínica Dra. Laura Mazzola</span>
-                    </a>
+                    {/*<a className="navbar-brand d-flex align-items-center" href="#home">*/}
+                    {/*    <img*/}
+                    {/*        src="/logo1.jpg"*/}
+                    {/*        alt="Logo Dra. Laura Mazzola"*/}
+                    {/*        className="me-2 header-logo"*/}
+                    {/*    />*/}
+                    {/*    <span>Clínica Dra. Laura Mazzola</span>*/}
+                    {/*</a>*/}
 
-                    {/*  Hamburguer Btn */}
+                    {/* Hamburger */}
                     <button
                         className="navbar-toggler"
                         type="button"
@@ -25,26 +25,36 @@ const Header: React.FC = () => {
                         aria-expanded="false"
                         aria-label="Toggle navigation"
                     >
-                        <span className="navbar-toggler-icon"></span>
+                        <span className="navbar-toggler-icon" />
                     </button>
 
                     {/* Nav Links */}
                     <div className="collapse navbar-collapse" id="navbarNav">
                         <ul className="navbar-nav ms-auto">
                             <li className="nav-item">
-                                <a className="nav-link" href="#home">Página Inicial</a>
+                                <a className="nav-link" href="#home">
+                                    Página Inicial
+                                </a>
                             </li>
                             <li className="nav-item">
-                                <a className="nav-link" href="#treatments">Tratamentos</a>
+                                <a className="nav-link" href="#treatments">
+                                    Tratamentos
+                                </a>
                             </li>
                             <li className="nav-item">
-                                <a className="nav-link" href="#clinic">A Clínica</a>
+                                <a className="nav-link" href="#clinic">
+                                    A Clínica
+                                </a>
                             </li>
                             <li className="nav-item">
-                                <a className="nav-link" href="#tips">Informativo/Dicas</a>
+                                <a className="nav-link" href="#tips">
+                                    Avaliações
+                                </a>
                             </li>
                             <li className="nav-item">
-                                <a className="nav-link" href="#contact">Contato</a>
+                                <a className="nav-link" href="#contact">
+                                    Contato
+                                </a>
                             </li>
                         </ul>
                     </div>

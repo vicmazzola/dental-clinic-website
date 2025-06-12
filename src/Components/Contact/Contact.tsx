@@ -1,5 +1,5 @@
-import { useState, useEffect } from "react";
-import { FaArrowUp } from "react-icons/fa";
+import React, {useState, useEffect} from "react";
+import {FaArrowUp, FaWhatsapp} from "react-icons/fa";
 
 const Contact: React.FC = () => {
     const [isVisible, setIsVisible] = useState(false);
@@ -36,15 +36,9 @@ const Contact: React.FC = () => {
                         href="https://wa.me/5511970504715"
                         target="_blank"
                         rel="noopener noreferrer"
-                        className="btn btn-success me-3"
+                        className="btn btn-success btn-lg rounded-pill"
                     >
-                        WhatsApp
-                    </a>
-                    <a
-                        href="#"
-                        className="btn btn-outline-success"
-                    >
-                        Agendar Consulta
+                        <FaWhatsapp className="me-2" /> Agende no WhatsApp
                     </a>
                 </div>
             </div>
@@ -61,7 +55,7 @@ const Contact: React.FC = () => {
                         opacity: 0.8,
                     }}
                 >
-                    <FaArrowUp />
+                    <FaArrowUp/>
                 </button>
             )}
         </section>
