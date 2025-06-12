@@ -48,7 +48,7 @@ const Header: React.FC = () => {
                             </li>
                             <li className="nav-item">
                                 <a className="nav-link" href="#tips">
-                                    Informativo/Dicas
+                                    Avaliações
                                 </a>
                             </li>
                             <li className="nav-item">
