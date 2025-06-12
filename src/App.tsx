@@ -5,7 +5,7 @@ import './App.css';
 import Contact from "./Components/Contact/Contact.tsx";
 import Treatments from "./Components/Treatments/Treatments.tsx";
 import Clinic from "./Components/Clinic/Clinic.tsx";
-import Tips from "./Components/Tips/Tips.tsx";
+import Comments from "./Components/Tips/Comments.tsx";
 
 
 const App: React.FC = () => {
@@ -14,9 +14,9 @@ const App: React.FC = () => {
             <Header/>
             <main>
                 <Hero/>
-                <Treatments/>
                 <Clinic/>
-                <Tips/>
+                <Treatments/>
+                <Comments/>
                 <Contact/>
             </main>
             <Footer/>

@@ -75,10 +75,67 @@ main {
     overflow: hidden;
 }
 
+/* Default (mobile) */
 #heroCarousel .carousel-item img {
     border-radius: 0;
-    height: 450px;
+    height: 550px;
     object-fit: cover;
     width: 100%;
 }
+/* Mobile default */
+#heroCarousel .carousel-item img {
+    border-radius: 0;
+    height: 550px;
+    object-fit: cover;
+    width: 100%;
+}
+
+/* Tablet and up */
+@media (min-width: 576px) {
+    .custom-card {
+        width: 18rem;
+        border-radius: 8px;
+        overflow: hidden;
+    }
+
+    .custom-gallery-img {
+        height: 350px;
+        width: 100%;
+        object-fit: cover;
+        display: block;
+    }
+}
+
+@media (min-width: 1024px) {
+    .custom-card {
+        width: 20rem;
+        border-radius: 8px;
+        overflow: hidden;
+    }
+
+    .custom-gallery-img {
+        height: 350px;
+        width: 100%;
+        object-fit: cover;
+        display: block;
+    }
+}
+
+
+
+.scroll-top-btn {
+    position: fixed;
+    bottom: 1.25rem;
+    right: 1.25rem;
+    z-index: 1000;
+    transition: opacity 0.3s;
+    opacity: 0;
+}
+
+.scroll-top-btn.visible {
+    opacity: 0.8;
+}
+
+
+
 
