@@ -66,3 +66,19 @@ main {
     color: white;
     padding: 1rem 0;
 }
+
+
+
+#heroCarousel .carousel-inner,
+#heroCarousel .carousel-item {
+    border-radius: 30px;
+    overflow: hidden;
+}
+
+#heroCarousel .carousel-item img {
+    border-radius: 0;
+    height: 450px;
+    object-fit: cover;
+    width: 100%;
+}
+
