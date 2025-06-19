@@ -17,12 +17,36 @@ const Hero: React.FC = () => {
 
 
                 {/* Title & Lead */}
-                {/*<h1 className="display-5 fw-bold">Dra. Laura Mazzola</h1>*/}
-                <h3 className="display-6 fw-bold mt-2">Dra. Laura Mazzola</h3>
+                <h3 className="display-8 fw-bold mt-2">Te ajudo encontrar seu melhor sorriso!</h3>
 
                 <p className="lead mt-3">
                     Atendimento odontológico de qualidade, com foco no seu bem-estar.
                 </p>
+                <a
+                    href="https://wa.me/5511970504715"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    style={{
+                        position: 'fixed',
+                        bottom: '20px',
+                        left: '20px',
+                        backgroundColor: '#25D366',
+                        color: 'white',
+                        padding: '10px 15px',
+                        borderRadius: '50px',
+                        boxShadow: '0 2px 8px rgba(0,0,0,0.3)',
+                        zIndex: 1000,
+                        textDecoration: 'none'
+                    }}
+                >
+                    <FaWhatsapp
+                        style={{
+                        width: 24,
+                            height: 24,
+                            right: "20px",
+                    }} />
+                </a>
+
 
 
                 {/* Mobile-only Carousel */}
@@ -92,19 +116,15 @@ const Hero: React.FC = () => {
                 {/* Buttons */}
                 <div className="hero-btns d-flex justify-content-center flex-wrap gap-4 mt-5">
                     <a href="#treatments" className="btn btn-success btn-lg rounded-pill">
-                        <FaTooth className="me-2" /> Tratamentos
-                    </a>
-                    <a
-                        href="https://wa.me/5511970504715"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        className="btn btn-success btn-lg rounded-pill"
-                    >
-                        <FaWhatsapp className="me-2" /> Eu te ajudo encontrar seu melhor sorriso, agende aqui
+                        <FaTooth
+                            className="me-2"
+                            style={{width: 22, height: 22, objectFit: 'cover'}}
 
+
+                        /> Tratamentos
                     </a>
+
                 </div>
-
 
             </div>
         </section>

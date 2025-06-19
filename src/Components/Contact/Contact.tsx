@@ -38,7 +38,11 @@ const Contact: React.FC = () => {
                         rel="noopener noreferrer"
                         className="btn btn-success btn-lg rounded-pill"
                     >
-                        <FaWhatsapp className="me-2" /> Agende no WhatsApp
+                        <FaWhatsapp
+                            className="me-2"
+                            style={{width: 30, height: 30, objectFit: 'cover'}}
+
+                        /> Agende no WhatsApp
                     </a>
                 </div>
             </div>
