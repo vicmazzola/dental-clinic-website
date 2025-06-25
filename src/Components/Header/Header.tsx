@@ -6,14 +6,15 @@ const Header: React.FC = () => {
             <div className="container">
                 <nav className="navbar navbar-expand-md navbar-dark">
                     {/* Logo */}
-                    {/*<a className="navbar-brand d-flex align-items-center" href="#home">*/}
-                    {/*    <img*/}
-                    {/*        src="/logo1.jpg"*/}
-                    {/*        alt="Logo Dra. Laura Mazzola"*/}
-                    {/*        className="me-2 header-logo"*/}
-                    {/*    />*/}
-                    {/*    <span>Clínica Dra. Laura Mazzola</span>*/}
-                    {/*</a>*/}
+                    <a className="navbar-brand d-flex align-items-center" href="#home">
+                        <img
+                            src="/favicon-white.png"
+                            alt="Logo Dra. Laura Mazzola"
+                            className="me-2 header-logo img-fluid"
+                            style={{height: 40}}
+                        />
+                        <span>Dra. Laura Mazzola</span>
+                    </a>
 
                     {/* Hamburger */}
                     <button
@@ -25,7 +26,7 @@ const Header: React.FC = () => {
                         aria-expanded="false"
                         aria-label="Toggle navigation"
                     >
-                        <span className="navbar-toggler-icon" />
+                        <span className="navbar-toggler-icon"/>
                     </button>
 
                     {/* Nav Links */}
