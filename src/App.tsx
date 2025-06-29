@@ -6,6 +6,7 @@ import Contact from "./Components/Contact/Contact.tsx";
 import Treatments from "./Components/Treatments/Treatments.tsx";
 import Clinic from "./Components/Clinic/Clinic.tsx";
 import Comments from "./Components/Tips/Comments.tsx";
+import AboutMe from "./Components/About-me/About-me.tsx";
 
 
 const App: React.FC = () => {
@@ -15,6 +16,7 @@ const App: React.FC = () => {
             <main>
                 <Hero/>
                 <Clinic/>
+                <AboutMe/>
                 <Treatments/>
                 <Comments/>
                 <Contact/>

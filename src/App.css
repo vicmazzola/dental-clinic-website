@@ -1,6 +1,11 @@
+/* ===============================
+   FONTS
+================================= */
 @import url('https://fonts.googleapis.com/css2?family=Red+Hat+Text:wght@400;700&display=swap');
 
-
+/* ===============================
+   BASE RESET & LAYOUT STRUCTURE
+================================= */
 html, body {
     height: 100%;
     margin: 0;
@@ -17,6 +22,9 @@ main {
     flex: 1;
 }
 
+/* ===============================
+   HEADER
+================================= */
 .header {
     background-color: #5A694A;
     color: white;
@@ -33,7 +41,9 @@ main {
     color: inherit !important;
 }
 
-
+/* ===============================
+   BUTTONS
+================================= */
 .btn-success {
     background-color: #5A694A !important;
     border-color: #5A694A !important;
@@ -55,42 +65,50 @@ main {
     border-color: #5A694A !important;
 }
 
+/* ===============================
+   IMAGES IN BOOTSTRAP CARDS
+================================= */
 .card-img-top {
     object-fit: cover;
     max-height: 200px;
 }
 
-
+/* ===============================
+   FOOTER
+================================= */
 .footer {
     background-color: #5A694A;
     color: white;
     padding: 1rem 0;
 }
 
-
-
+/* ===============================
+   CAROUSELS (Hero, Clinic, Modern Clinic)
+================================= */
 #heroCarousel .carousel-inner,
-#heroCarousel .carousel-item {
+#heroCarousel .carousel-item,
+#clinicCarousel .carousel-inner,
+#clinicCarousel .carousel-item,
+#modernClinicCarousel .carousel-inner,
+#modernClinicCarousel .carousel-item {
     border-radius: 30px;
     overflow: hidden;
 }
 
-/* Default (mobile) */
-#heroCarousel .carousel-item img {
-    border-radius: 0;
-    height: 550px;
-    object-fit: cover;
-    width: 100%;
-}
-/* Mobile default */
-#heroCarousel .carousel-item img {
+/* Shared carousel image styles */
+#heroCarousel .carousel-item img,
+#clinicCarousel .carousel-item img,
+#modernClinicCarousel .carousel-item img {
     border-radius: 0;
     height: 550px;
     object-fit: cover;
     width: 100%;
 }
 
-/* Tablet and up */
+
+/* ===============================
+   DESKTOP GALLERY IMAGES
+================================= */
 @media (min-width: 576px) {
     .custom-card {
         width: 18rem;
@@ -122,7 +140,9 @@ main {
 }
 
 
-
+/* ===============================
+   SCROLL TO TOP BUTTON
+================================= */
 .scroll-top-btn {
     position: fixed;
     bottom: 1.25rem;
